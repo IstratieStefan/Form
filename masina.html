@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formular</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>  
+    <nav>
+        <ul>
+          <li><a  href="home.html">Home</a></li>
+          <li><a class="active" href="form.html">Form</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+        <h1 style="padding-top: 10vh;"> Configureaza noua masina </h1>
+    <form action="/action_page.php" target="_blank" method="post"> 
+        <div class="question">
+            <label> Model</label><br>
+            <select name="" id="">
+                <option></option>
+                <option> Long Range(112.970 EUR)</option>
+                <option> Performance(137.970 EUR) </option>
+            </select>
+        </div>
+        <div class="question">
+            <label> Vopsea</label><br>
+            <select name="" id="">
+                <option></option>
+                <option>Solid Black(inclus)</option>
+                <option>Pearl White(+1.800 EUR)</option>
+                <option>Midnight Silver Metallic(+2.200 EUR)</option>
+                <option>Deep Blue Metallic(+2.200 EUR)</option>
+                <option>Red Multi-Coat(+3.200 EUR)</option>
+            </select>
+        </div>
+        <div class="question">
+            <label> Jante</label><br>
+            <select name="" id="">
+                <option></option>
+                <option>Jante Tempest 19"(incluse)</option>
+                <option>Jante Arachnid 21"(+4.900 EUR)</option>
+            </select>
+        </div>
+        <div class="question">
+            <label> Culoare interior</label><br>
+            <select name="" id="">
+                <option></option>
+                <option>Negru(inclus)</option>
+                <option>Alb și negru(+2.400 EUR)</option>
+                <option>Crem(+2.400 EUR)</option>
+            </select>
+        </div>
+        <div class="question">
+            <label> Comanda!</label><br>
+            <input type="submit">
+        </div>
+    </form>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
