@@ -39,7 +39,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #3b4252;
+    border-radius: 15px;
+    position: fixed;
   }
   
   li {
@@ -48,14 +50,14 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color: #eceff4;
     text-align: center;
-    padding: 14px 16px;
+    padding: 6px 8px;
     text-decoration: none;
   }
   
   li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #2e3440;
   }
   
   .active {
